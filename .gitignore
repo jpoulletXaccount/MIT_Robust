@@ -1,0 +1,14 @@
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+
+# Mac OS
+*.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R image files
+.Rhistory

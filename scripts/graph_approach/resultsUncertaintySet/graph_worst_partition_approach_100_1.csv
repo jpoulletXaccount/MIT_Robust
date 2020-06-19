@@ -1,0 +1,2 @@
+iteration,num_partitions,upper_bound,num_points,lower_bound_maybe,lower_bound,gap,duration,uncertainty et
+1,7,1,12,0,1,0,22664 milliseconds,1/6 * nb flight

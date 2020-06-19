@@ -1,0 +1,4 @@
+iteration,num_partitions,upper_variables,upper_constraints,upper_bound,upper_status,num_points,lower_variables,lower_constraints,lower_bound,lower_status,duration
+1,2,1561,1589,5.0,Optimal,2,433,1561,1.0,Optimal,7635 milliseconds
+2,4,6241,4729,5.0,Optimal,4,817,3089,1.0,Optimal,3088 milliseconds
+3,8,26161,15761,5.0,Optimal,8,1585,6145,1.0,Optimal,14152 milliseconds

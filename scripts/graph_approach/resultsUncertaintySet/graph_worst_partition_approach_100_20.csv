@@ -1,0 +1,9 @@
+iteration,num_partitions,upper_bound,num_points,lower_bound_maybe,lower_bound,gap,duration,uncertainty set
+1,7,33,12,0,4,0.878787879,101999 milliseconds,20/6 * numflights
+2,13,33,24,0,4,0.878787879,118323 milliseconds,20/6 * numflights
+3,26,33,50,0,4,0.878787879,347848 milliseconds,20/6 * numflights
+4,36,33,70,0,4,0.878787879,327323 milliseconds,20/6 * numflights
+5,78,32,154,0,4,0.875,1195542 milliseconds,20/6 * numflights
+6,100,32,198,0,4,0.875,947012 milliseconds,20/6 * numflights
+7,105,32,208,0,4,0.875,383826 milliseconds,20/6 * numflights
+8,467,31,933,0,6,0.806451613,10908311 milliseconds,20/6 * numflights

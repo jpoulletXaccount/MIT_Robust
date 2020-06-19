@@ -1,0 +1,62 @@
+Motivation + Aims
+
+- Teams have to be assigned to specific jobs -- not looking at how many teams should be hired throughout the day (rostering problem).
+
+- Stress the two aims. Another would be to have looked at how to minimise the number of worker hours and backup hours, with relative costs.
+
+- Data comes from Air France, on a single day in 2017 -- 4000 total jobs, and we had to test on subsets of these.
+
+
+Problem Description
+
+- Trying to solve probem for a single airline on a single day.
+
+- One worker does one job.
+
+- Every job HAS to be completed.
+
+- Workers must complete a job once they've started it.
+
+- In the two stage formulation, the time taken for workers to move between jobs is negligible.
+
+
+Adaptability
+
+- There are problem classes under which adaptability doesn't improve the objective, but just to give you an idea of the mechanics which could allow it to do so in this setting...
+
+- Crucially -- one property of static solutions to this problem is that if there exist any realisations of uncertainty under which two jobs clash, then the same worker cannot be assigned to both. This is by nature of the problem we are trying to solve -- which is at the 'worker level'.
+
+- If we instead replace static variables with a fully adjustable policy, then we can look at clashes isolated to particular realisations of uncertainty.
+
+
+MIP Formulation
+
+- The constraint which modelled clashes was a big-M constraint (easy to choose M as number of minutes in day).
+
+- Behaviour of static solution is revealed as z_jk gets set based on worst case.
+
+- Binary adjustable variables make this hard to solve, so we used the adaptive partitioning approach.
+
+- Tried several partitioning approaches, but all resulted in problems that were too large to solve after an iteration. Problem: many binary 'clash' z_jk variables, and the problems being solved were uncertain -- which introduced some JuMPeR overhead.
+
+
+Graph Formulation
+
+- Reformulated as network flow problem, where each arc corresponds to a valid job succession for a particular partition of uncertainty (making use of previous observation about the nature of static variables).
+
+- Easy to compute arcs for given partitions a priori, with a series of linear optimisation problems over the uncertainty set.
+
+- Implementation considerations: no need to recompute certain links as subpartitions were created (never vs. maybe vs. always).
+
+- With the graph model, we were able to solve problems of reasonable size and draw conclusions on the initial aims.
+
+- First graph shows improvement in objective by 1 backup agent. Found that improvements occurred more frequently when nominal jobs were closer together.
+
+- Second graph shows performance on various problem sizes -- none of these showed an improvement, and first two solved on first iterations. Second two required some progress of the bounds to solve to optimality.
+
+
+Conclusions + Extensions
+
+- Conversion to a multi-stage problem with intervals throughout the day, or potentially using a folding horizon with the two-stage formulation we have at the moment.
+
+- Modelling of more complicated problem specific concerns -- skill sets, lunch breaks etc.

@@ -1,0 +1,4 @@
+iteration,num_partitions,upper_bound,num_points,lower_bound_maybe,lower_bound,gap,duration
+1,2,149,4,114,124,0.16778523489932887,132851 milliseconds
+2,4,149,12,114,123.99999999999997,0.16778523489932906,362153 milliseconds
+3,8,149,28,114,123.99999999999997,0.16778523489932906,648100 milliseconds

@@ -1,0 +1,6 @@
+iteration,num_partitions,upper_bound,num_points,lower_bound_maybe,lower_bound,gap,duration
+<<<<<<< HEAD
+1,1,16.0,6,16.0,16.0,0.0,4326 milliseconds
+=======
+1,2,16,4,15,16,0,3178 milliseconds
+>>>>>>> first-results

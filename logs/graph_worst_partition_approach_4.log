@@ -1,0 +1,73 @@
+00:39:04 | Loading problem.
+00:39:16 | # workers needed to solve the deterministic problem is 118.
+00:39:16 | Defining base uncertainty.
+00:39:16 | Building initial link matrix.
+00:41:15 | Starting main loop.
+00:41:15 | (Iteration 1) Solving graph model with 1 partition(s).
+00:41:17 | (Iteration 1) Upper bound obtained: 95.0
+00:41:17 | (Iteration 1) Building new partitions and link matrices.
+Number of worst partition 1
+00:42:06 | (Iteration 1) 2 partitions built.
+00:42:06 | (Iteration 1) 4 point(s) available to compute lower bound.
+00:42:06 | (Iteration 1) Lower bound find with relax Maybe 76.0
+00:42:06 | (Iteration 1) Solving lower bound model.
+00:42:17 | (Iteration 1) Lower bound obtained: 82.0
+00:42:17 | (Iteration 1) Relative bound gap at iteration 1 is 0.1368421052631579
+00:42:18 | Writing results to file.
+00:42:18 | (Iteration 2) Solving graph model with 2 partition(s).
+00:42:26 | (Iteration 2) Upper bound obtained: 95.0
+00:42:26 | (Iteration 2) Building new partitions and link matrices.
+Number of worst partition 1
+00:43:27 | (Iteration 2) 3 partitions built.
+00:43:27 | (Iteration 2) 8 point(s) available to compute lower bound.
+00:43:27 | (Iteration 2) Lower bound find with relax Maybe 76.0
+00:43:27 | (Iteration 2) Solving lower bound model.
+00:44:11 | (Iteration 2) Lower bound obtained: 82.0
+00:44:11 | (Iteration 2) Relative bound gap at iteration 2 is 0.1368421052631579
+00:44:11 | Writing results to file.
+00:44:11 | (Iteration 3) Solving graph model with 3 partition(s).
+00:44:24 | (Iteration 3) Upper bound obtained: 94.99999999999999
+00:44:24 | (Iteration 3) Building new partitions and link matrices.
+Number of worst partition 0
+00:45:30 | (Iteration 3) 5 partitions built.
+00:45:30 | (Iteration 3) 12 point(s) available to compute lower bound.
+00:45:30 | (Iteration 3) Lower bound find with relax Maybe 76.0
+00:45:30 | (Iteration 3) Solving lower bound model.
+00:46:22 | (Iteration 3) Lower bound obtained: 82.0
+00:46:22 | (Iteration 3) Relative bound gap at iteration 3 is 0.13684210526315777
+00:46:22 | Writing results to file.
+00:46:22 | (Iteration 4) Solving graph model with 5 partition(s).
+00:46:48 | (Iteration 4) Upper bound obtained: 95.0
+00:46:48 | (Iteration 4) Building new partitions and link matrices.
+Number of worst partition 3
+00:49:58 | (Iteration 4) 8 partitions built.
+00:49:58 | (Iteration 4) 24 point(s) available to compute lower bound.
+00:49:58 | (Iteration 4) Lower bound find with relax Maybe 76.0
+00:49:58 | (Iteration 4) Solving lower bound model.
+00:52:49 | (Iteration 4) Lower bound obtained: 82.0
+00:52:49 | (Iteration 4) Relative bound gap at iteration 4 is 0.1368421052631579
+00:52:49 | Writing results to file.
+00:52:49 | (Iteration 5) Solving graph model with 8 partition(s).
+00:53:36 | (Iteration 5) Upper bound obtained: 95.00000000000001
+00:53:36 | (Iteration 5) Building new partitions and link matrices.
+Number of worst partition 0
+00:55:39 | (Iteration 5) 10 partitions built.
+00:55:39 | (Iteration 5) 28 point(s) available to compute lower bound.
+00:55:39 | (Iteration 5) Lower bound find with relax Maybe 76.0
+00:55:39 | (Iteration 5) Solving lower bound model.
+00:58:31 | (Iteration 5) Lower bound obtained: 81.99999999999999
+00:58:31 | (Iteration 5) Relative bound gap at iteration 5 is 0.13684210526315818
+00:58:31 | Writing results to file.
+00:58:31 | (Iteration 6) Solving graph model with 10 partition(s).
+00:59:40 | (Iteration 6) Upper bound obtained: 95.0
+00:59:40 | (Iteration 6) Building new partitions and link matrices.
+Number of worst partition 6
+01:05:52 | (Iteration 6) 16 partitions built.
+01:05:52 | (Iteration 6) 52 point(s) available to compute lower bound.
+01:05:52 | (Iteration 6) Lower bound find with relax Maybe 76.0
+01:05:52 | (Iteration 6) Solving lower bound model.
+slurmstepd: error: Step 17943894.0 exceeded memory limit (35695452 > 33554432), being killed
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 17943894.0 ON node958 CANCELLED AT 2019-05-07T01:07:36 ***
+srun: error: node958: task 0: Killed

@@ -1,0 +1,9 @@
+iteration,num_partitions,upper_bound,num_points,lower_bound_maybe,lower_bound,gap,duration,uncertainty set
+1,7,33,12,0,5,0.848484848,80313 milliseconds,30 / 6 * num_fligths
+2,17,33,32,0,5,0.848484848,169127 milliseconds,31 / 6 * num_fligths
+3,20,33,38,0,5,0.848484848,93235 milliseconds,32 / 6 * num_fligths
+4,47,32,92,0,5,0.84375,522261 milliseconds,33 / 6 * num_fligths
+5,81,32,160,0,5,0.84375,791723 milliseconds,34 / 6 * num_fligths
+6,103,32,204,0,5,0.84375,624144 milliseconds,35 / 6 * num_fligths
+7,110,32,218,0,5,0.84375,412936 milliseconds,36 / 6 * num_fligths
+8,116,32,230,0,5,0.84375,457995 milliseconds,37 / 6 * num_fligths

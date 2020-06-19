@@ -1,0 +1,48 @@
+01:06:23 | Loading problem.
+01:06:36 | # workers needed to solve the deterministic problem is 146.
+01:06:36 | Defining base uncertainty.
+01:06:36 | Building initial link matrix.
+01:10:30 | Starting main loop.
+01:10:30 | (Iteration 1) Solving graph model with 1 partition(s).
+01:10:33 | (Iteration 1) Upper bound obtained: 149.0
+01:10:33 | (Iteration 1) Building new partitions and link matrices.
+01:12:16 | (Iteration 1) 2 partitions built.
+01:12:16 | (Iteration 1) 4 point(s) available to compute lower bound.
+01:12:16 | (Iteration 1) Lower bound find with relax Maybe 114.0
+01:12:16 | (Iteration 1) Solving lower bound model.
+01:12:43 | (Iteration 1) Lower bound obtained: 124.0
+01:12:43 | (Iteration 1) Relative bound gap at iteration 1 is 0.16778523489932887
+01:12:43 | Writing results to file.
+01:12:44 | (Iteration 2) Solving graph model with 2 partition(s).
+01:13:02 | (Iteration 2) Upper bound obtained: 149.0
+01:13:02 | (Iteration 2) Building new partitions and link matrices.
+01:16:35 | (Iteration 2) 4 partitions built.
+01:16:35 | (Iteration 2) 12 point(s) available to compute lower bound.
+01:16:35 | (Iteration 2) Lower bound find with relax Maybe 114.0
+01:16:35 | (Iteration 2) Solving lower bound model.
+01:18:46 | (Iteration 2) Lower bound obtained: 123.99999999999997
+01:18:46 | (Iteration 2) Relative bound gap at iteration 2 is 0.16778523489932906
+01:18:46 | Writing results to file.
+01:18:46 | (Iteration 3) Solving graph model with 4 partition(s).
+01:19:31 | (Iteration 3) Upper bound obtained: 149.0
+01:19:31 | (Iteration 3) Building new partitions and link matrices.
+01:26:27 | (Iteration 3) 8 partitions built.
+01:26:27 | (Iteration 3) 28 point(s) available to compute lower bound.
+01:26:27 | (Iteration 3) Lower bound find with relax Maybe 114.0
+01:26:27 | (Iteration 3) Solving lower bound model.
+01:29:34 | (Iteration 3) Lower bound obtained: 123.99999999999997
+01:29:34 | (Iteration 3) Relative bound gap at iteration 3 is 0.16778523489932906
+01:29:34 | Writing results to file.
+01:29:34 | (Iteration 4) Solving graph model with 8 partition(s).
+01:30:20 | (Iteration 4) Upper bound obtained: 149.0
+01:30:20 | (Iteration 4) Building new partitions and link matrices.
+01:45:56 | (Iteration 4) 16 partitions built.
+01:45:56 | (Iteration 4) 60 point(s) available to compute lower bound.
+01:45:56 | (Iteration 4) Lower bound find with relax Maybe 114.0
+01:45:56 | (Iteration 4) Solving lower bound model.
+slurmstepd: error: Step 17945189.0 exceeded memory limit (39489404 > 33554432), being killed
+slurmstepd: error: Exceeded job memory limit
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 17945189.0 ON node945 CANCELLED AT 2019-05-07T01:48:54 ***
+slurmstepd: error: *** STEP 17945189.0 ON node945 CANCELLED AT 2019-05-07T01:48:54 ***
+srun: error: node945: task 0: Killed

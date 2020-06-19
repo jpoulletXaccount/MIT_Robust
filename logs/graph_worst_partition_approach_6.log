@@ -1,0 +1,18 @@
+00:41:11 | Loading problem.
+00:41:28 | # workers needed to solve the deterministic problem is 197.
+00:41:28 | Defining base uncertainty.
+00:41:28 | Building initial link matrix.
+00:47:46 | Starting main loop.
+00:47:46 | (Iteration 1) Solving graph model with 1 partition(s).
+00:47:50 | (Iteration 1) Upper bound obtained: 158.0
+00:47:50 | (Iteration 1) Building new partitions and link matrices.
+Number of worst partition 1
+00:50:17 | (Iteration 1) 2 partitions built.
+00:50:17 | (Iteration 1) 4 point(s) available to compute lower bound.
+00:50:17 | (Iteration 1) Lower bound find with relax Maybe 140.0
+00:50:17 | (Iteration 1) Solving lower bound model.
+00:51:29 | (Iteration 1) Lower bound obtained: 151.0
+00:51:29 | (Iteration 1) Relative bound gap at iteration 1 is 0.04430379746835443
+00:51:29 | Writing results to file.
+00:51:30 | (Iteration 1) Bound gap below tolerance. Exiting.
+00:51:30 | Procedure finished.

@@ -1,0 +1,13 @@
+iteration,num_partitions,upper_bound,num_points,lower_bound_maybe,lower_bound,gap,duration
+<<<<<<< HEAD
+1,2,33.0,4,0.0,1.0,0.9696969696969697,45444 milliseconds
+2,4,33.0,12,0.0,1.0,0.9696969696969697,75811 milliseconds
+3,8,31.0,28,0.0,1.0,0.967741935483871,131421 milliseconds
+4,16,31.0,60,0.0,1.0,0.967741935483871,222117 milliseconds
+5,31,31.0,122,0.0,2.0,0.9354838709677419,4477958 milliseconds
+6,60,31.0,242,1.0,2.0,0.9354838709677419,2545626 milliseconds
+7,113,31.0,468,1.0,2.0,0.9354838709677419,1447709 milliseconds
+8,213,31.0,894,1.0,2.0,0.9354838709677419,4000889 milliseconds
+=======
+1,2,33,4,31,33,0,7297 milliseconds
+>>>>>>> first-results
